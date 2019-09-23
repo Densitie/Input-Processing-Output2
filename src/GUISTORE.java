@@ -387,7 +387,7 @@ public class GUISTORE extends javax.swing.JFrame {
         hst = Math.round(hst);
         HSTtext.setText(String.valueOf(hst));
         
-//      Final Total Calculator 
+//      Final Total Calculation
         finaltotal = subtotal + hst;
         FinalText.setText(String.valueOf(finaltotal));
         

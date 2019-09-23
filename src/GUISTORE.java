@@ -376,15 +376,18 @@ public class GUISTORE extends javax.swing.JFrame {
         
         num8 = Integer.parseInt(RXprice.getText());
         num8 = num8 * 1566.90;
-        
+       
+//      Subtotal Calculation
         subtotal = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8;
         subtotal = Math.round(subtotal);
         SubtotalText.setText(String.valueOf(subtotal));
         
+//      HST Calculation  
         hst = (num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8) * 0.13;
         hst = Math.round(hst);
         HSTtext.setText(String.valueOf(hst));
         
+//      Final Total Calculator 
         finaltotal = subtotal + hst;
         FinalText.setText(String.valueOf(finaltotal));
         

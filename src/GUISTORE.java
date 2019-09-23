@@ -1,12 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Arun K
+ * This is a GUI purchasing program
+ * Septembre 21 2019
  */
 
 /**
  *
- * @author ajayk
+ * @author arkir7294
  */
 public class GUISTORE extends javax.swing.JFrame {
 
@@ -338,7 +338,8 @@ public class GUISTORE extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        
+       
+//      Variable Declaration Area
         double num1;
         double num2;
         double num3;
@@ -351,6 +352,7 @@ public class GUISTORE extends javax.swing.JFrame {
         double hst;
         double finaltotal;
         
+//      Calculator Area
         num1 = Integer.parseInt(i9price.getText());
         num1 = num1 * 638.99;
         

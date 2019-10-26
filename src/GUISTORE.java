@@ -1,5 +1,4 @@
 /*
- * Arun K
  * This is a GUI purchasing program
  * Septembre 21 2019
  */
